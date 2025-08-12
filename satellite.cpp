@@ -35,8 +35,8 @@ Satellite::Satellite(Satellite& s, Angle a)
    velocity.addV(kickVel);
 
    Position kickPos;
-   kickPos.setPixelsX(20.0 * sin(a.getRadians())); // adjust the 20 = pixel pos
-   kickPos.setPixelsY(20.0 * cos(a.getRadians()));
+   kickPos.setPixelsX(30.0 * sin(a.getRadians())); // adjust the 20 = pixel pos
+   kickPos.setPixelsY(30.0 * cos(a.getRadians()));
    position.addMetersX(kickPos.getMetersX());
    position.addMetersY(kickPos.getMetersY());
 }

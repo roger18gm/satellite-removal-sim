@@ -59,7 +59,7 @@ void TestSatellite::constructorWithPosition()
    SatelliteDerived s2(s1, a);
 
    // VERIFY
-   assertEquals(s2.position.x, 900.0);       // 20px(kickPos: 20px * sin(PI/2) * 40m(1px=40m) = 800m + 100m = 900m 
+   assertEquals(s2.position.x, 1300.0);       // 30px(kickPos: 30px * 40m(1px=40m) = 1200m + 100m = 1300m 
    assertEquals(s2.position.y, 150.0);
    assertEquals(s2.velocity.dx, 1005.0);     // 1000(kickspeed:1000 *  1:sin(PI/2)) + 5
    assertEquals(s2.velocity.dy, 10.0);       // 0(kickspeed: 1000 * cos(PI/2)) + 10(curr speed)
