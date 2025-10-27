@@ -81,3 +81,21 @@ Roger Galan & Jessen Forbush
 ## Notes
 
 This simulation demonstrates realistic orbital mechanics with educational value for understanding satellite behavior, collision dynamics, and space debris generation. The physics engine uses accurate gravitational calculations and provides a foundation for studying orbital mechanics concepts. The comprehensive test suite ensures reliability of all physics calculations and entity behaviors.
+
+## Executable Instructions
+
+Build > Configuration Manager > Release 
+
+Build > Build Solution
+
+Open Inno Setup program.
+
+Create new setup script with wizard
+
+point to the exe file in x64/Release
+
+include Release folder just in case
+
+Run setup script.
+
+Add setup compiler.exe to Github Release
